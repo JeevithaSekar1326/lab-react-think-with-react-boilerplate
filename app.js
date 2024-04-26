@@ -14,8 +14,17 @@ class ReactContainer extends React.Component{
       }
     
   }
+  class ReactContainer extends React.Component{
+      render(){
+          return (
+          <div>Hello! Welcome to Kalvium   
+             <div>This is babel</div>
+         </div> )
+      };  
+  }
+
 const container = document.getElementById('react-container');
+ReactDOM.render(<ReactContainer/>,container);    
 //ReactDOM.render("Hello! Welcome to React",container);
 //ReactDOM.render(React.createElement(Container),container);
-
-ReactDOM.render(React.createElement(ReactContainer),container);
+//ReactDOM.render(React.createElement(ReactContainer),container);
